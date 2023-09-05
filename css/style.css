@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&family=Raleway:ital,wght@1,200&display=swap');
+:root{
+    --main-bg-color:#2874f0;;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 9vw;
+    padding: .23rem .25em;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 1vw 1vw 1vw 1vw;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 100%;
+    height: 2em;
+    border-radius: .2rem;
+    margin: 0 1rem 0 2rem;
+    padding: 0 2rem;
+}
+.btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: 4vmin;
+}
+.slider{
+    margin: 2vw auto;
+    padding: 3vh 2vw 0;
+    width: 82vw;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    overflow:hidden;
+    
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s ease-out 1.5s;
+}
+#Img3{
+    transform: translate(90vw);  
+}
+#Img2{
+    transition: 1s ease-out 4s;
+    transform:translate(90vw);
+}
+#Img1{
+    transform:translate(0vw);
+     
+}
+.slider img{
+    width: 80vw;
+    height: 30vw;
+    display: flex;
+}
+.card{
+    width: 95vw;
+    margin: 5vh auto;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.card-item{
+    margin: 0 1.3rem;
+    width: 10vw;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+}
+.lines{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+.text-center2{
+    color: rgb(90, 117, 50);
+}
+.container{
+    min-height: calc(100vh - 5rem - 12vh);
+}
+.card-item img{
+    width: 10vw;
+    height: 10vw;
+}
+footer{
+    margin: 2rem 0 0;
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

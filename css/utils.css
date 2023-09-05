@@ -1,0 +1,128 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: .5rem .5rem;
+    color: white;
+    background-color:var(--main-bg-color);
+    border: .2rem solid white;
+    border-radius: .7rem;
+    cursor: pointer;
+}
+/*.my-2{
+    margin: 26px 0;
+    font-size: 45px;
+}
+.text-center{ */
+    /* text-align: center;
+}
+.text-center2{
+    color: rgb(63, 160, 19);
+    text-align: center;
+} */
+/*@media  screen and (max-width: 800px) {
+    .logo img{
+        width: 40px;
+    }
+    nav ul{
+        height: 28px;
+    }
+    nav ul li{
+        padding: 4px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .search input{
+        width: 93px;
+        height: 17px;
+        border-radius: 1px;
+        margin: 0 6px 0 16px;
+        padding: 0 5px;
+    }
+    .btn{
+        font-weight: 20px;
+    }
+    .slider{
+        width: 52vw;
+        height:20vw ;
+    }
+    .slider img{
+        width: 48vw;
+        height: 20vw;
+    }
+    .card{
+        width: 50vw;
+    }
+    .card-item{
+        width: 30vw;
+    }
+    .my-2{
+        margin: 5px 15px;
+        font-size: 15px;
+    }
+
+    .lines{
+        font-size: 10px;
+        margin:20px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .logo img{
+        width: 35px;
+    }
+    nav ul{
+        height: 18px;
+    }
+    nav ul li{
+        padding: 2px;
+    }
+    nav ul li a{
+        font-size: 7px;
+    }
+    .search input{
+        width: 80px;
+        height: 17px;
+        border-radius: 1px;
+        margin: 0 6px 0 16px;
+        padding: 0 5px;
+    }
+    .btn{
+        font-weight: 10px;
+    }
+    .slider{
+        width: 70vw;
+        height:35vw ;
+    }
+    .slider img{
+        width:68vw;
+        height: 35vw;
+    }
+    .card{
+        width: 30vw;
+        margin: 10px 0px;
+    }
+    .card-item{
+        width: 0.1vw;
+        padding: 20px;
+    }
+    .my-2{
+        width: 200px;
+        margin: 0px 45px;
+        padding: 0px;
+        font-size:15px;
+    }
+    .lines{
+        width: 100px;
+        font-size: 10px;
+        margin:2px 30px;
+    }
+     
+
+}*/
+
+    
+
